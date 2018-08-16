@@ -19,7 +19,16 @@
     </section>
 
     <section class="main-content">
-    	<p align="justify"> New Long-Range radio technologies have recently emerged in the IoT landscape. These technologies work in the Sub-GHz bands, allowing low-power communications over long distances. As a result, LoRa is now been considered a candidate radio technology for many wireless sensor network (WSN) applications, especially those that require extended coverage such as smart city, wildlife or infrastructure monitoring. Nonetheless, WSN researchers have produced a vast number of energy efficient networking protocols, raising the question of how much of the last decade research outcome is actually applicable to LoRa base networks and can be re-used without reinventing the wheel. To address this question, the <a href="https://github.com/contiki-os"><strong>Contiki Operating System</strong></a> can be regarded as a key enabler, as it has received wide adoption both from academia and industry, and supports various standard networking protocols such as Collection Tree Protocol (Contiki Collect), IPv6 over Low-Power Wireless Personal Area Networks (6LoWPAN), and IPv6 Routing Protocol for Low-Power and Lossy Networks (RPL). The barrier, however, consists in the inability to directly run ContikiOS atop LoRa platforms. </p>
+		<p align="justify"> New Long-Range radio technologies have recently emerged in the IoT landscape. These technologies work in the Sub-GHz bands, allowing low-power communications over long distances. As a result, LoRa is now been considered a candidate radio technology for many wireless sensor network (WSN) applications, especially those that require extended coverage such as smart city, wildlife or infrastructure monitoring. Nonetheless, WSN researchers have produced a vast number of energy efficient networking protocols, raising the question of how much of the last decade research outcome is actually applicable to LoRa base networks and can be re-used without reinventing the wheel. To address this question, the <a href="https://github.com/contiki-os"><strong>Contiki Operating System</strong></a> can be regarded as a key enabler, as it has received wide adoption both from academia and industry, and supports various standard networking protocols such as Collection Tree Protocol (Contiki Collect), IPv6 over Low-Power Wireless Personal Area Networks (6LoWPAN), and IPv6 Routing Protocol for Low-Power and Lossy Networks (RPL). The barrier, however, consists in the inability to directly run ContikiOS atop LoRa platforms. </p>
+
+		<p align="justify"> To fill this gap, the open source Contiki port is introduced for:    
+			<ol type="i">
+			  <li>MSP430FR5969 Microcontroller from Texas Instruments, extending the Contiki Hardware support list. 
+			  This will enable to easily interface radios that are already supported in Contiki such as CC1200, CC2420, CC2520.</li>
+			  <li>Semtech LoRa radio transceiver, especially SX1276 to enable long-range application designs.</li>
+			</ol> 
+
+		</p>
 
 
 
